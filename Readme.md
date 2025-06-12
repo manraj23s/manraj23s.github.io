@@ -14,7 +14,7 @@
 
 
 #### About Page
-<img src="website_images/AboutPage1.png" width="900">
+<img src="website_images/AboutPage1.jpeg" width="900">
 
 
 #### Projects Page
