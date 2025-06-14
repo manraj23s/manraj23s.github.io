@@ -39,25 +39,72 @@
     <div id="portfolio-details" class="portfolio-details">
       <div class="container">
 
-        <div class="row">
+      <div class="row">
 
-          <div class="col-lg-12 portfolio-info">
-            <br>
-            <h2 style="color:#12d640">Multi-Layer Perceptions to Classify HR, IRIS, &amp; MNIST Data</h2>
+  <div class="col-lg-12 portfolio-info">
+    <br>
+    <h2 style="color:#12d640">Multi-Layer Perceptrons to Classify HR, IRIS, &amp; MNIST Data</h2>
 
-            <ul>
-              <li><strong>Tech Stack</strong>: Python, scikit-learn, numpy, pandas</li>
-              <li><strong>Github URL</strong>: <a href="https://github.com/rajaprerak/ResumeSectionClassifier" target="_blank">Project Link</a></li>
-            </ul>
+    <ul>
+      <li><strong>Tech Stack</strong>: Python (scikit-learn - MLPClassifier &amp; preprocessing, TensorFlow/Keras - 'adam' optimizer, numpy, matplotlib, seaborn)</li>
+      <li><strong>Github URL</strong>: <a href="https://github.com/manraj23s/Multi-Layer-Perceptrons.git" target="_blank">Project Link</a></li>
+    </ul>
 
-            <p>
-              Given the Resume of a person, detect the section words such as experience, skills, projects, etc. Implemented different machine learning algorithms to get the desired output.            
-            </p>
+    <p>
+      This project explores the power and versatility of <b>Multi-Layer Perceptrons (MLPs)</b>—a class of artificial neural networks—across three real-world classification problems: employee attrition (<b>HR data</b>), handwritten digit recognition (<b>MNIST</b>), and flower species identification (<b>IRIS</b>).
+      MLPs are able to model complex, non-linear relationships, making them highly effective for predictive analytics and data-driven decision-making.
+    </p>
+    <div class="row">
+      <div class="col-md-4 mb-4">
+        <div style="background:#23293a;color:#fff;border-radius:12px;padding:18px 16px 16px 16px;box-shadow:0 2px 8px rgba(0,0,0,0.07);height:100%;">
+          <div style="font-size:2em; margin-bottom:6px; color:#3e64ff;">
+            <i class="bx bx-group"></i>
           </div>
-
+          <h5 style="font-weight:bold; color:#3e64ff;">HR Attrition Prediction</h5>
+          <div style="font-size:0.97em;">
+            <b>Goal:</b> Predict whether an employee will leave based on features like salary, commute time, evaluations, and satisfaction.<br>
+            <b>Approach:</b> Categorical data preprocessing, visualization, and <b>MLPClassifier</b> with two hidden layers.<br>
+            <b>Result:</b> <span style="color:#80ffb0;font-weight:bold;">95.17% accuracy</span>
+          </div>
         </div>
-
       </div>
+      <div class="col-md-4 mb-4">
+        <div style="background:#23293a;color:#fff;border-radius:12px;padding:18px 16px 16px 16px;box-shadow:0 2px 8px rgba(0,0,0,0.07);height:100%;">
+          <div style="font-size:2em; margin-bottom:6px; color:#e80368;">
+            <i class="bx bx-font"></i>
+          </div>
+          <h5 style="font-weight:bold; color:#e80368;">MNIST Digit Recognition</h5>
+          <div style="font-size:0.97em;">
+            <b>Goal:</b> Classify handwritten digits (0–9) from image data.<br>
+            <b>Approach:</b> Data normalization, sequential <b>MLP</b> with TensorFlow/Keras (two hidden layers, sigmoid activation), and model tuning.<br>
+            <b>Result:</b> <span style="color:#ffd180;font-weight:bold;">94.05% accuracy</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div style="background:#23293a;color:#fff;border-radius:12px;padding:18px 16px 16px 16px;box-shadow:0 2px 8px rgba(0,0,0,0.07);height:100%;">
+          <div style="font-size:2em; margin-bottom:6px; color:#28a745;">
+            <i class="bx bx-leaf"></i>
+          </div>
+          <h5 style="font-weight:bold; color:#28a745;">IRIS Species Classification</h5>
+          <div style="font-size:0.97em;">
+            <b>Goal:</b> Identify iris flower species from four feature measurements.<br>
+            <b>Approach:</b> Data visualization, <b>MLPClassifier</b> with two small hidden layers, 'lbfgs' solver, regularization.<br>
+            <b>Result:</b> <span style="color:#80ffd1;font-weight:bold;">97.37% accuracy</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <p>
+      <b>Key Insights:</b> MLPs are powerful, flexible, and robust tools for a wide range of classification tasks, especially where data is not linearly separable.
+      Effective preprocessing, model architecture, and tuning are crucial for high performance, as demonstrated by strong results on all three benchmark datasets.
+    </p>
+    <p>
+      <b>Author:</b> Manraj Singh<br>
+      <b>Contact:</b> <a href="mailto:manraj23singh@gmail.com" style="color:#3e64ff;">manraj23singh@gmail.com</a>
+    </p>
+  </div>
+</div>
     </div><!-- End Portfolio Details -->
   </main><!-- End #main -->
 
